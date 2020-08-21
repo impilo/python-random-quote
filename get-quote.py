@@ -5,7 +5,7 @@ def primary():
   quotes = f.readlines()
   f.close()
 
-  print(quotes[0])
+  print(quotes[0], end='')
   print(quotes[14])
 
 if __name__== "__main__":
